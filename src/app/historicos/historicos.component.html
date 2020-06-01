@@ -1,0 +1,18 @@
+<div class="inner_page-banner"></div>
+<app-details></app-details>
+
+<!---------------------- Body ------------------>
+<div class="container">
+  <h2>Cronología</h2>
+  <mgl-timeline [alternate]="true" [toggle]="false">
+    <mgl-timeline-entry *ngFor="let entry of entries; let i = index">
+      <mgl-timeline-entry-header id="entryclas">{{
+        entry.header
+      }}</mgl-timeline-entry-header>
+      <mgl-timeline-entry-content>
+        {{ entry.content }}
+      </mgl-timeline-entry-content>
+      <mgl-timeline-entry-dot></mgl-timeline-entry-dot>
+    </mgl-timeline-entry>
+  </mgl-timeline>
+</div>

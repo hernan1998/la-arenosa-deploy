@@ -1,0 +1,168 @@
+.inner_page-banner {
+    text-align: center;
+    background: url(../../assets/carnaval.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+}
+.agileits-services-info {
+    background: rgba(48, 40, 40, 0.6);
+    padding: 1em 1em;
+    box-shadow: 0px 0px 9px 0px rgb(255, 255, 255);
+}
+.welcome_left p {
+    font-size: 15px;
+    color: #666;
+    line-height: 2em;
+    letter-spacing: 1px;
+} 
+h3.agileits-title{
+    color: #333;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: .7em;
+    margin-top: .4em;
+    line-height: 0.9em;
+}
+.welcome_left h4 {
+    color: #333;
+    font-size: 1.4em;
+    text-transform: capitalize;
+    border-left: 3px solid #e7272d;
+    padding-left: 1em;
+    margin: 0 0 1em;
+    line-height: 1.6em;
+    letter-spacing: 1px;
+}
+.services{
+	background: url(/assets/carnaval2020.jpg) no-repeat 0px 0px;
+	background-size: cover;
+}
+.w3-head-all h3 {
+    font-size: 3em;
+    color: #262c38;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.w3-head-col h3 {
+    color: rgb(0, 0, 0);
+}
+.w3l-services-grid:hover div.agileits-services-info h4 {
+    color: #16ee16;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.w3ls-services-img i {
+    color: #fff;
+    font-size: 40px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.agileits-services-info h4 {
+    color: #e7272d;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.agileits-services-info p {
+    color: #fff;
+}
+.agileits-services-info{
+    text-decoration: none;
+    cursor: pointer;
+}
+.profile h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #222;
+    letter-spacing: 1px;
+}
+.profile p{
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #343434;
+    text-transform: capitalize;
+}
+.profile .img-box{
+	opacity: 1;
+	display: block;
+    position: relative;
+}
+
+.profile .img-box:after, .img-box ul, .img-box ul li{
+	-webkit-transition: all 0.5s ease-in-out 0s;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.img-box ul a{
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+.img-box ul{
+	position: absolute;
+	z-index: 2;
+	bottom: 50px;
+	text-align: center;
+	width: 100%;
+	padding-left: 0px;
+	height: 0px;
+	margin:0px;
+	opacity: 0;
+}
+.img-box ul li a:hover{
+    background: transparent;
+}
+.img-box ul li {
+    display: inline-block;
+}
+.img-box ul li a{
+    border: 1px solid #000;
+    width: 35px;
+    height: 35px;
+    font-size: 12px;
+    display: block;
+    margin: 0 3px;
+    line-height: 35px;
+    border: 1px solid #fff;
+}
+.img-box a span.fab,.img-box a span.fa{
+	color: #fff;
+}
+.img-box:hover::after{
+    opacity: 1;
+    content:"";
+	background-color: rgba(0, 0, 0, 0.63);
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+    bottom: 0;
+    transition: 8s;
+}
+
+.img-box:hover ul {
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.img-box a:hover li {
+    border-color: #fff;
+    color: #fff;
+}
+.img-box img {
+    width: 100%;
+    transition: 2s;
+}

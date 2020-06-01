@@ -1,0 +1,87 @@
+.inner_page-banner {
+  text-align: center;
+  background: url(../../assets/carnaval.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 300px;
+}
+.inner-about h4 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+h5.bottom {
+  margin: 0.5em 0;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 24px;
+}
+footer {
+  background: #000000;
+}
+h4.footer-title,
+h3.footer-title,
+h2.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.foot-icon-w3 i {
+  color: rgb(201, 198, 198);
+  font-size: 20px;
+}
+.footer-text p,
+.contact-info p a,
+.contact-info p,
+.footer-grid_section_1its p {
+  color: #b9b8b8;
+  font-size: 15px;
+}
+
+.footer-title h3 {
+  font-size: 24px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+.agileits_social_list li {
+  display: inline-block;
+}
+
+.agileits_social_list li a {
+  width: 36px;
+  height: 36px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 2.8;
+}
+a.w3_agile_facebook {
+  background: #3b5998;
+  border-color: #3b5998;
+}
+
+a.agile_twitter {
+  background: #1da1f2;
+  border-color: #1da1f2;
+}
+
+a.w3_agile_dribble {
+  background: #ea4c89;
+  border-color: #ea4c89;
+}
+
+a.w3_agile_google {
+  background: #f44336;
+  border-color: #f44336;
+}
+
+.container {
+  padding-bottom: 50px;
+}

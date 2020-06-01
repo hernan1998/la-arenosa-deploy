@@ -1,0 +1,27 @@
+.inner_page-banner {
+  text-align: center;
+  background: url(../../assets/carnaval.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 300px;
+}
+
+/* ------------------ Body ------------------------- */
+.container {
+  padding-top: 25px;
+}
+#entryclas {
+  background: linear-gradient(
+    90deg,
+    rgba(240, 250, 2, 1) 0%,
+    rgba(243, 154, 2, 1) 64%,
+    rgba(145, 224, 175, 1) 100%
+  );
+}
+h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}

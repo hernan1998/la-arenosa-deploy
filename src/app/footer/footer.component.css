@@ -1,0 +1,31 @@
+.icons ul li .footer-bg {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background: #0a63bd;
+    margin: 10px 1px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+
+  }
+  .icons ul li {
+    display: inline-block;
+  }
+  footer {
+    background: #000;
+  }
+  footer p {
+    padding: 0.8em 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 2.5px;
+  }
+  footer p a {
+    color: #0a63bd;
+  }
+  footer p a:hover {
+    color: #fff;
+  }

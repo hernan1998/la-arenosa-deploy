@@ -1,0 +1,10 @@
+.inner_page-banner {
+    text-align: center;
+    background: url(../../assets/carnaval.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+}

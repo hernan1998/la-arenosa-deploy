@@ -1,0 +1,152 @@
+.inner_page-banner {
+  text-align: center;
+  background: url(../../assets/carnaval.jpg) no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  min-height: 300px;
+}
+.cont-bg {
+  background: rgb(248, 248, 248);
+  border-top: 1px dashed #ddd;
+}
+.wrap {
+  margin: 0 auto;
+  width: 1000px;
+}
+.cnt-mn {
+  padding-top: 30px;
+}
+.para p,
+.cnt-btm-des p,
+.cnt-btm-des1 p,
+.para1 p,
+.cnt-abt-para p,
+.about p,
+.ser-main p,
+.ser-para p {
+  color: #555;
+  line-height: 1.8em;
+  font-size: 12px;
+}
+.ser-main {
+  float: left;
+  width: 68%;
+}
+.cnt-h h4,
+.contact-left h3,
+.contact-right h3 {
+  font-size: 24px;
+  color: #ff4800;
+}
+.ser-grid-list {
+  float: left;
+  width: 30%;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.ser-grid-list1 {
+  float: left;
+  width: 28%;
+  margin-top: 20px;
+}
+.ser-grid-list1 a,
+.ser-grid-list a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ser-grid-list1:hover,
+.ser-grid-list:hover {
+  font-weight: bold;
+}
+.ser-grid-list1:hover h4,
+.ser-grid-list:hover h4 {
+  font-weight: bold;
+}
+.ser-grid-list h4,
+.ser-grid-list1 h4 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+}
+.cnt-grid img,
+.cnt-grid1 img,
+.cnt-grid2 img,
+.cnt-left-pic img,
+.cnt-right-pic img,
+.blog img,
+.ser-grid-list img,
+.ser-grid-list1 img {
+  border: 5px solid #ffffff;
+  box-shadow: 0px 0px 5px #555;
+}
+.clear {
+  clear: both;
+}
+.cnt-btm-right {
+  float: right;
+  width: 28%;
+}
+.cont-right-grid {
+  margin-top: 20px;
+}
+.blog1 {
+  float: left;
+}
+.ser-para {
+  float: right;
+  margin-left: 10px;
+  width: 250px;
+}
+.ser-para span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+}
+.ser-para span:hover {
+  color: rgb(0, 204, 255);
+}
+.ser-grid-list img,
+.ser-grid-list1 img {
+  height: 180px;
+  width: 210px;
+}
+.ser-rdmore {
+  margin: 20px 0;
+}
+.ser-rdmore a {
+  font-size: 12px;
+  padding: 8px 28px;
+  color: #fff;
+  border: 1px solid rgb(255, 118, 65);
+  background: #ff4800 url("/assets/large-button-overlay.png");
+  border-radius: 3em;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  -o-border-radius: 3em;
+}
+.ser-rdmore a:hover {
+  color: #fff;
+  border: 1px solid rgb(255, 118, 65);
+  background: rgb(235, 68, 3) url("/assets/large-button-overlay.png");
+}
+.ser-num {
+  padding-top: 20px;
+  height: 44px;
+  width: 40px;
+}
+.ser-num a {
+  font-size: 12px;
+  padding: 8px 16px;
+  color: #fff;
+  border: 1px solid rgb(44, 188, 255);
+  background: rgb(44, 188, 255) url("/assets/large-button-overlay.png");
+  border-radius: 3em;
+  -webkit-border-radius: 3em;
+  -moz-border-radius: 3em;
+  -o-border-radius: 3em;
+}
